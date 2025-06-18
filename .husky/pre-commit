@@ -1,0 +1,21 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Running Linter..."
+if npm run lint; then
+  echo "✅ Lint passed!"
+else
+  echo "❌ Lint failed. Aborting push."
+  exit 1
+fi
+
+echo "🛠️ Building project..."
+if npm run build; then
+  echo "✅ Build succeeded!"
+else
+  echo "❌ Build failed. Aborting push."
+  exit 1
+fi
+
+echo "🚀 Ready to push!"
+

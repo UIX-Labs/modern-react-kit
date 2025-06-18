@@ -12,5 +12,5 @@ export default antfu({
   },
   react: true,
   typescript: true,
-  ignores: ['dist', '.tanstack', 'routeTree.gen.ts'],
+  ignores: ['dist', '.tanstack', 'src/app/routeTree.gen.ts'],
 })
