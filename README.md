@@ -1,53 +1,57 @@
-# Modern React Kit
+# Modern React Kit 🚀
 
 A professional, batteries-included React starter template, designed for modern web development with best-in-class tooling, scalable architecture, and a focus on DX (Developer Experience). This template is ideal for building robust, production-grade React applications.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Vite** for lightning-fast development and build.
-- **React 19** with the latest features and strict mode enabled.
-- **TypeScript** for type safety and maintainability.
-- **TanStack Router** for type-safe, file-based routing.
-- **TanStack Query** for powerful, declarative data fetching and caching.
-- **Tailwind CSS** for utility-first, highly customizable styling.
-- **ESLint** with a modern, opinionated config for code quality.
-- **HMR (Hot Module Replacement)** for instant feedback during development.
-- **Devtools** for both TanStack Query and Router, integrated out of the box.
-- **FSD (Feature-Sliced Design)** architecture for scalable, maintainable codebases.
+- ⚡ **[Vite](https://vitejs.dev/)** for lightning-fast development and build.
+- ⚛️ **[React 19](https://react.dev/)** with the latest features and strict mode enabled.
+- 🟦 **[TypeScript](https://www.typescriptlang.org/)** for type safety and maintainability.
+- 🗺️ **[TanStack Router](https://tanstack.com/router/v1)** for type-safe, file-based routing.
+- 🔥 **[TanStack Query](https://tanstack.com/query/v5)** for powerful, declarative data fetching and caching.
+- 🎨 **[Tailwind CSS](https://tailwindcss.com/)** for utility-first, highly customizable styling.
+- 🧩 **[shadcn/ui](https://ui.shadcn.com/)** for beautiful, accessible, and customizable UI components.
+- 🧹 **[ESLint](https://eslint.org/)** with a modern, opinionated config for code quality **and formatting**.
+- ♻️ **HMR (Hot Module Replacement)** for instant feedback during development.
+- 🛠️ **Devtools** for both TanStack Query and Router, integrated out of the box.
+- 🏗️ **FSD (Feature-Sliced Design)** architecture for scalable, maintainable codebases.
 
 ---
 
-## Why These Choices?
+## 🤔 Why These Choices?
 
-### Vite
+### ⚡ [Vite](https://vitejs.dev/)
 Chosen for its speed, simplicity, and first-class support for modern JavaScript and TypeScript. Vite's HMR is best-in-class, making development a joy.
 
-### React 19
+### ⚛️ [React 19](https://react.dev/)
 The latest React version ensures access to the newest features, improved performance, and long-term support.
 
-### TypeScript
+### 🟦 [TypeScript](https://www.typescriptlang.org/)
 Type safety is essential for scaling applications and reducing bugs. The template is fully type-checked, with strict settings.
 
-### TanStack Router
+### 🗺️ [TanStack Router](https://tanstack.com/router/v1)
 A modern, type-safe router that enables file-based routing, code-splitting, and deep integration with React and TanStack Query. It's designed for large, scalable apps.
 
-### TanStack Query
+### 🔥 [TanStack Query](https://tanstack.com/query/v5)
 The industry standard for server state management in React. It simplifies data fetching, caching, and background updates, and works seamlessly with TanStack Router.
 
-### Tailwind CSS
+### 🎨 [Tailwind CSS](https://tailwindcss.com/)
 Utility-first CSS framework for rapid UI development. It keeps your styles consistent and maintainable, and is highly customizable.
 
-### ESLint
-Configured with the latest community standards and strict rules, including React and TypeScript best practices, to ensure code quality and consistency.
+### 🧩 [shadcn/ui](https://ui.shadcn.com/)
+A collection of beautifully designed, accessible, and customizable React components built on top of Radix UI and Tailwind CSS. Use these to quickly build modern UIs with best practices out of the box.
 
-### FSD (Feature-Sliced Design)
+### 🧹 [ESLint](https://eslint.org/)
+Configured with the latest community standards and strict rules, including React and TypeScript best practices, to ensure code quality and consistency. **ESLint is also used for formatting, replacing the need for Prettier.**
+
+### 🏗️ FSD (Feature-Sliced Design)
 Feature-Sliced Design is a modern architecture pattern for frontend projects. It organizes code by features and layers (entities, features, shared, widgets, pages, app), making large codebases scalable and maintainable. This template is ready for FSD, so you can grow your project with confidence.
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 src/
@@ -70,7 +74,7 @@ src/
 
 ---
 
-## Getting Started
+## 🚦 Getting Started
 
 1. **Install dependencies:**
    ```bash
@@ -92,37 +96,53 @@ src/
    npm run preview
    ```
 
-5. **Lint your code:**
+5. **Lint & Format your code:**
    ```bash
    npm run lint
    ```
+   > ESLint is configured to handle both linting and formatting. No need for Prettier!
 
 ---
 
-## Customization
+## 🛠️ Customization
 
-- **Routing:** Add new routes in `src/app/routes/` using TanStack Router's file-based convention.
-- **Styling:** Edit `src/app/index.css` or use Tailwind's configuration to customize your design system.
-- **ESLint:** Tweak rules in `eslint.config.mjs` to match your team's preferences.
-- **FSD:** Organize your code by FSD layers (entities, features, shared, widgets, pages) for scalable architecture.
+- **Routing:** Add new routes in `src/app/routes/` using TanStack Router's file-based convention. [TanStack Router Docs](https://tanstack.com/router/v1)
+- **Styling:** Edit `src/app/index.css` or use Tailwind's configuration to customize your design system. [Tailwind Docs](https://tailwindcss.com/docs)
+- **UI Components:** Use and extend [shadcn/ui](https://ui.shadcn.com/docs/components) for beautiful, accessible components.
+- **ESLint:** Tweak rules in `eslint.config.mjs` to match your team's preferences. [ESLint Docs](https://eslint.org/docs/latest/)
+- **FSD:** Organize your code by FSD layers (entities, features, shared, widgets, pages) for scalable architecture. [FSD Guide](https://feature-sliced.design/)
 
 ---
 
-## Devtools
+## 🧑‍💻 Devtools
 
 - **TanStack Query Devtools** and **TanStack Router Devtools** are included for debugging and inspecting your app's data and navigation state.
 
 ---
 
-## Extending
+## 🚀 Extending
 
-- Add more TanStack Query features (mutations, infinite queries, etc.) as needed.
-- Integrate additional Vite plugins for PWA, testing, or analytics.
+- Add more TanStack Query features (mutations, infinite queries, etc.) as needed. [TanStack Query Docs](https://tanstack.com/query/v5/docs)
+- Integrate additional Vite plugins for PWA, testing, or analytics. [Vite Plugins](https://vitejs.dev/plugins/)
 - Expand ESLint with plugins for accessibility, security, or custom rules.
-- Grow your codebase using FSD principles for long-term maintainability.
+- Grow your codebase using FSD principles for long-term maintainability. [FSD Docs](https://feature-sliced.design/)
 
 ---
 
-## License
+## 📚 Documentation
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TanStack Router](https://tanstack.com/router/v1)
+- [TanStack Query](https://tanstack.com/query/v5)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [ESLint](https://eslint.org/)
+- [Feature-Sliced Design](https://feature-sliced.design/)
+
+---
+
+## 📝 License
 
 MIT
