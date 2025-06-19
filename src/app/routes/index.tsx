@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+
 import { Button } from '@/shared/components/ui/button'
 
 export const Route = createFileRoute('/')({
