@@ -10,7 +10,7 @@
 
 import { createRootRoute } from '@tanstack/react-router'
 
-import { Route as IndexRouteImport } from './routes/index'
+import { Route as IndexRouteImport } from './../pages/index'
 
 const rootRouteImport = createRootRoute()
 
