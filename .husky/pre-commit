@@ -2,10 +2,18 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "🔍 Running Linter..."
-if npm run lint; then
+if npm run lint:staged; then
   echo "✅ Lint passed!"
 else
   echo "❌ Lint failed. Aborting push."
+  exit 1
+fi
+
+echo "🔍 Running Formatter..."
+if npm run format:staged; then
+  echo "✅ Format passed!"
+else
+  echo "❌ Format failed. Aborting push."
   exit 1
 fi
 

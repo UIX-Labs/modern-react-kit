@@ -13,21 +13,21 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["src/*"],
-      "@shared/*": ["src/shared/*"],
-      "@app/*": ["src/app/*"],
-      "@entities/*": ["src/entities/*"],
-      "@features/*": ["src/features/*"],
-      "@pages/*": ["src/pages/*"],
-      "@widgets/*": ["src/widgets/*"]
+      "~/*": ["src/*"],
+      "~shared/*": ["src/shared/*"],
+      "~app/*": ["src/app/*"],
+      "~entities/*": ["src/entities/*"],
+      "~features/*": ["src/features/*"],
+      "~pages/*": ["src/pages/*"],
+      "~widgets/*": ["src/widgets/*"]
     },
     "allowImportingTsExtensions": true,
- 
+
     /* Linting */
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true, 
+    "noUnusedParameters": true,
     "noEmit": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
